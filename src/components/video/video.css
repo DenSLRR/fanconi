@@ -1,0 +1,15 @@
+.video__container {
+    width: 100%;
+    margin-bottom: 79px;
+}
+
+.video-item {
+    width: 100%;
+}
+
+
+@media (max-width: 1047px) {
+    .video__container {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,100 @@
+.menu {
+padding: 0 98px 98px 98px;
+}
+
+.menu__title-title {
+    text-align: center;
+    color: #101010;
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 79px;
+    text-transform: uppercase;
+}
+
+.menu__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.menu__food {
+    height: 730px;
+    flex: 1 400px;
+    display: flex;
+    align-items: end;
+    background: url('https://s3-alpha-sig.figma.com/img/e04d/9601/b16ce93cb7d3f19268db66d17d96bdd1?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GKt3nQweliCoym1wCxWZFmSfmEP9SyjH8Pr6QnjE9WwCbd7Njnz6qaMnxKcvuMf-nz1-x668xyfTI8sMB7~8d58LhElOLJ2HCTuR-xfcl05sbiy4gVrcAaJqPmr5zQDz2vbtXydmybVHaolyorDT-1fywO3OGP7LIB~LasyqOw4i2dkVOiXCLFc7BvCRhxShPU~pKDl3CpGqLVqkAwAuRX2aELp1yJtOU75LMoFnOLRIlOnXx3y1T1QPPEKCMYFNEM3~-nXNv-KsLquLYn7pXIUP6oXWZLtXQihWpQIxT-uxAfBWWuOXL~Fmsz5b5HjgyJwCuGZBj0gbBAIGFMWOeQ__');
+    background-size: cover;
+    background-position: center;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    
+}
+
+.menu__drink {
+    height: 730px;
+    flex: 1 400px;
+    display: flex;
+    align-items: end;
+    background: url('https://s3-alpha-sig.figma.com/img/a4f4/f648/3925e86e1cc436c0c1a1cdea67a81443?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TYG868alhNZVJ420zdw8dqMpiW32TNOcNGQLnJsgEllewEr3Zq-ZycatX~5omR81XPe-HRfUI8W0v6dM6DgeYfRR78PNdi6hMQtoqC13-UDzVDIunpnWGAsYiNJhtbM1Yzgr8haS034OG21KyL7XUABpKN6LmuwXmZxx3QMCppKEjhcfuL~-7CfbdMbxnSbmb269Admo9BQc~qjbgZ5uEPZQAXQ8mkUlmuDlfveOkjWTRh4DO5NTlYhzfS~Ujlb1vmnMlXBe4KHTZZc3Xq9ydKhN8P8wGASFYA1hM84k5iWwTZuJZZAw0vymZJEfVFwJoceYvxBkdNo8p0xHfwVwhw__');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.menu__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(0deg, rgba(249, 251, 251, 0.705) 10%, rgba(255, 255, 255, 0.705) 45%, rgba(255, 255, 255, 0.041) 100%);
+    height: 50%;
+    width: 100%;
+    padding: 22px;
+}
+
+.menu__description h3 {
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    color: #172428;
+    text-transform: uppercase;
+}
+.menu__description p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    color: #172428;
+}
+
+
+/* Adaptive  */
+
+@media (max-width: 1027px) {
+   .menu {
+    padding: 0 40px 40px 40px;
+   }
+   .menu__food {
+    margin-right: 10px;
+   }
+
+   .menu__title-title {
+    margin-bottom: 40px;
+   }
+}
+
+@media (max-width: 887px) {
+    .menu__food {
+     margin-right: 10px;
+    }
+ }
+
+
+@media (max-width: 596px) {
+    .menu {
+        padding: 0 10px 40px 10px;
+        }
+
+}
