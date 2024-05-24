@@ -5,7 +5,7 @@ import './cards.css'
 const Card = (props) => {
     
     return (
-        <div style={props.bgimage} className='card'>
+        <div style={props.bgimage} id='events' className='card'>
             <div className="card__image">
                 <div className="card__date">
                     <div className="card__date_block">
@@ -18,7 +18,7 @@ const Card = (props) => {
                     <p className='card__description-start'>{props.start}</p>
                 </div>
             </div>
-            <button className={props.status}><a href="#">{props.activity}</a></button>
+            {/* <button className={props.status}><a href="#">{props.activity}</a></button> */}
         </div>
     )
 

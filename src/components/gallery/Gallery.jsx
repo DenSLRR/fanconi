@@ -5,7 +5,7 @@ import './gallery.css'
 
 const Gallery = () => {
   return (
-    <div className='gallery'>
+    <div id='gallery' className='gallery'>
         <div className="gallery__title">
            <h2 className='gallery__title-title'>схема клуба</h2>
         </div>

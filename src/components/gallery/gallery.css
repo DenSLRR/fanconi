@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 550px) {
+    .gallery {
+        margin-bottom: 20px;
+    }
     .gallery__wrapper {
         padding: 0 10px 10px 10px;
     }

@@ -4,9 +4,10 @@ import headerVideo from "../assets/mainpage.MP4";
 
 const Video = () => {
   return (
-    <div className="video">
+    <div id="video" className="video">
       <div className="video__container">
         <video
+          playsInline
           className="video-item"
           autoPlay
           preload="true"
