@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer__home_mobile">
-            <a href="tel:+373079808080">
+            <a href="#video">
               <IoHomeOutline className="footer__social-item" />
             </a>
           </div>

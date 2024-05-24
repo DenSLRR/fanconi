@@ -1,0 +1,21 @@
+.loader {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loader__wrapper {
+    
+    display: flex;
+    flex-direction: column;
+}
+.loader img {
+    height: 140px;
+    font-weight: 140px;
+}
+.loader__svg {
+    width: 100px;
+    height: 100px;
+
+}
